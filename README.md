@@ -15,5 +15,3 @@ Wednesdays are our “I’m a Dev, AMA” where YOU bring questions for an exper
 Fridays we celebrate our wins for the week! Join us and let us know some great things you accomplished through the week!
 
 To listen, follow the hosts for show links:
-
-[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
