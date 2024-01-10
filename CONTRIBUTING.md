@@ -1,6 +1,6 @@
-# Contributing to Techcommute
+# Contributing to Tech Commute
 
-Welcome to Techcommute! We appreciate your interest in contributing. Whether you're fixing a bug, improving the documentation, or adding new features, your contributions are welcome.
+Welcome to Tech Commute! We appreciate your interest in contributing. Whether you're fixing a bug, improving the documentation, or adding new features, your contributions are welcome.
 
 Before you start contributing, please take a moment to read the following guidelines.
 
@@ -16,7 +16,7 @@ Before you start contributing, please take a moment to read the following guidel
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [maintainer's email].
+This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to https://twitter.com/TasonJorres.
 
 ## How to Contribute
 
