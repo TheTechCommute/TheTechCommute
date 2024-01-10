@@ -14,4 +14,6 @@ Mondays are our “Tech Topic” consisting of a theme and a guest. <br>
 Wednesdays are our “I’m a Dev, AMA” where YOU bring questions for an experienced dev. <br>
 Fridays we celebrate our wins for the week! Join us and let us know some great things you accomplished through the week!
 
-To listen, follow the hosts for show links: [Jason Torres](x.com/tasonjorres) & [Jacob Ashley](x.com/arcadejacob)
+To listen, follow the hosts for show links:
+
+[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
