@@ -17,3 +17,35 @@ Fridays we celebrate our wins for the week! Join us and let us know some great t
 To listen, follow the hosts for show links:
 
 [Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
+
+# HOW TO CONTRIBUTE
+
+- Tech Commute welcomes your contributions to make our community even better!  
+- As we get started we are looking for ideas for how to bes use this repo for the community.
+
+1. Fork the repository and create a new branch for your idea. Example: `YourName-ideas`.
+
+```bash
+git checkout -b YourName-ideas
+```
+2. Make you changes to `/project-ideas/ideas.md` and stage them.
+   
+```bash
+git add <filename>
+``` 
+3. After you stage all the changes, commit those changes.
+
+```bash
+git commit -m "Description of changes"
+```
+
+4. Push your changes to your fork:
+
+```bash
+git push --set-upstream origin feature-name
+```
+1. Submit a pull request to the main branch of the [https://github.com/TheTechCommute/techcommute](https://github.com/TheTechCommute/techcommute)
+
+## Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
