@@ -13,7 +13,7 @@ Help us build the website for **Tech Commute**! We're looking for contributions 
 
 ## About Tech Commute
 
-**Tech Commute** is a Twitter X Space and now a podcast where we dive into the world of tech. It's a platform to learn together, celebrate achievements, and talk to some of the most incredible people in tech on the planet
+**Tech Commute** is a Twitter X Space (and now a podcast!) where we dive into the world of tech. It's a platform to learn together, celebrate achievements, and talk to some of the most incredible people in tech on the planet.
 
 ### Live Sessions
 
