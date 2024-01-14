@@ -3,17 +3,41 @@
 
 # Welcome to the Tech Commute Open Source project!
 
--Help us as we build the website for the Tech Commute! 
-<br>
--Podcast episode links? Images? Schedule/Dates/Guests of the show? We want it all! Contribute and include what YOU think we should utalize this project for!
-<br>
+## Tech Commute Website Project
 
-### Tech Commute is a Twitter X Space (and now podcast!) where we learn together, celebrate achievements, and talk to some of the most incredible people in tech on the planet. Join us LIVE on Mondays and Wednesdays (3:50pmEST) and Fridays (11:30am). 
+## Introduction
 
-Mondays are our “Tech Topic” consisting of a theme and a guest. <br>
-Wednesdays are our “I’m a Dev, AMA” where YOU bring questions for an experienced dev. <br>
-Fridays we celebrate our wins for the week! Join us and let us know some great things you accomplished through the week!
+Help us build the website for **Tech Commute**! We're looking for contributions to make this project a hub for our community. Whether it's podcast episode links, images, schedules, dates, or guest details – we want to include it all. Contribute and include what YOU think we should utilize this project for!
 
-To listen, follow the hosts for show links:
+<hr>
+
+## About Tech Commute
+
+**Tech Commute** is a Twitter X Space and now a podcast where we dive into the world of tech. It's a platform to learn together, celebrate achievements, and talk to some of the most incredible people in tech on the planet
+
+### Live Sessions
+
+Join us LIVE on:
+
+- **Mondays at 3:50 PM EST**: "Tech Topic" featuring a theme and a special guest.
+- **Wednesdays at 3:50 PM EST**: "I'm a Dev, AMA" – YOUR chance to ask questions to experienced developers.
+- **Fridays at 11:30 AM**: We celebrate our wins for the week! Join us and let us know some great things you accomplished through the week!
+
+## How to Contribute
+
+We're excited to have you on board! Here's how you can contribute:
+
+- **Podcast Episodes**: Links to episodes where we explore various tech topics.
+- **Images**: Visuals that represent our themes and discussions.
+- **Schedule/Dates/Guests**: Updates and details about upcoming shows and guests.
+- **Your Ideas**: Suggestions on what else we can include or how we can improve.
+
+## Stay Updated
+
+To stay updated and listen to our shows, follow the hosts for the latest show links. Your participation and support make Tech Commute a better community!
 
 [Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
+
+---
+
+We look forward to your contributions and ideas. Together, we can make Tech Commute the go-to place for tech enthusiasts!
