@@ -1,4 +1,4 @@
-<img src="https://github.com/arcadejacob/techcommute/assets/52290063/45e79e00-5425-45f2-b0be-7639e1e3283a" style= " width: 500px;"> 
+<img src="https://i.imgur.com/J3u1BY5.png">
 <br>
 
 # Welcome to the Tech Commute Open Source project!
