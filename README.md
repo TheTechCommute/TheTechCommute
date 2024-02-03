@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/W6eIl6N.jpg" style="width: 500px;">
+<img src="https://i.imgur.com/J3u1BY5.png">
 <br>
 
 # Welcome to the Tech Commute Open Source project!
