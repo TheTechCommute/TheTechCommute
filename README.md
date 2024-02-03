@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <img src="https://cdn.discordapp.com/attachments/908482825358020608/1194452218368245760/techcommuteTransparent.png?ex=65b06750&is=659df250&hm=3c6cfd1d27ed9489f86b7e8f72b364054e0adf01938a3a113cbd37c7f7d3effe&" style= " width: 500px;"> 
+=======
+<img src="https://i.imgur.com/J3u1BY5.png">
+>>>>>>> techcommute/main
 <br>
 
 # Welcome to the Tech Commute Open Source project!
@@ -11,6 +15,7 @@ Help us build the website for **Tech Commute**! We're looking for contributions 
 
 <hr>
 
+<<<<<<< HEAD
 ## About Tech Commute
 
 **Tech Commute** is a Twitter X Space (and now a podcast!) where we dive into the world of tech. It's a platform to learn together, celebrate achievements, and talk to some of the most incredible people in tech on the planet.
@@ -41,3 +46,38 @@ To stay updated and listen to our shows, follow the hosts for the latest show li
 ---
 
 We look forward to your contributions and ideas. Together, we can make Tech Commute the go-to place for tech enthusiasts!
+=======
+[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
+
+# HOW TO CONTRIBUTE
+
+- Tech Commute welcomes your contributions to make our community even better!  
+- As we get started we are looking for ideas for how to bes use this repo for the community.
+
+1. Fork the repository and create a new branch for your idea. Example: `YourName-ideas`.
+
+```bash
+git checkout -b YourName-ideas
+```
+2. Make you changes to `/project-ideas/ideas.md` and stage them.
+   
+```bash
+git add <filename>
+``` 
+3. After you stage all the changes, commit those changes.
+
+```bash
+git commit -m "Description of changes"
+```
+
+4. Push your changes to your fork:
+
+```bash
+git push --set-upstream origin feature-name
+```
+1. Submit a pull request to the main branch of the [https://github.com/TheTechCommute/techcommute](https://github.com/TheTechCommute/techcommute)
+
+## Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
+>>>>>>> techcommute/main
