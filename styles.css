@@ -80,7 +80,7 @@ button {
 
 @media not (prefers-reduced-motion) {
   .tc_buddy {
-    animation: drive 0.5s ease infinite alternate;
+    animation: drive 0.5s ease 10 alternate;
   }
 }
 
