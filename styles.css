@@ -212,16 +212,14 @@ button {
   }
 }
 
-@media (max-width: 600px) {
-  .spotify-embed {
-    width: 100%; /* Full width on smaller screens */
-    height: 250px; /* Slightly reduce height on small devices */
-  }
+.spotify-embed {
+  width: 100%; /* Full screen width */
+  height: 352px; /* Slightly reduce height on small devices */
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (max-width: 900px) {
   .spotify-embed {
-    width: 90%; /* Adjust width for medium screens */
-    height: 280px; /* Adjust height for medium screens */
+    width: 90%; /* medium screen or smaller screens width */
+    height: 232px; /* Slightly reduce height on small devices */
   }
 }
