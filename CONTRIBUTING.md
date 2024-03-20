@@ -16,7 +16,7 @@ Before you start contributing, please take a moment to read the following guidel
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to https://twitter.com/TasonJorres.
+This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [twitter.com/TasonJorres](https://twitter.com/TasonJorres).
 
 ## How to Contribute
 
@@ -24,11 +24,7 @@ This project and everyone participating in it is governed by our [Code of Conduc
 2. Clone your forked repository to your local machine:
 
    ```bash
-<<<<<<< HEAD
-   git clone https://github.com/jasonetorres/techcommute.git
-=======
    git clone https://github.com/TheTechCommute/techcommute.git
->>>>>>> techcommute/main
    ```
 
 3. Create a new branch:
@@ -81,4 +77,4 @@ Please follow our [style guide](STYLE_GUIDE.md) for code consistency.
 
 By contributing, you agree that your contributions will be licensed under the [LICENSE](LICENSE) file of this repository.
 
-Happy coding!
+**Happy coding!**
