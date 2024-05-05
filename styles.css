@@ -223,3 +223,29 @@ button {
     height: 232px; /* Slightly reduce height on small devices */
   }
 }
+@media (prefers-color-scheme: dark) 
+:root {
+  --bg-color: #222;
+  --text-color: #fff;
+  --accent-color: #f0f;
+}
+
+@media (prefers-color-scheme: light) 
+:root {
+  --bg-color: #fff;
+  --text-color: #222;
+  --accent-color: #06f;
+}
+
+#dark-mode-toggle:checked + label {
+  --bg-color: #222;
+  --text-color: #fff;
+  --accent-color: #f0f;
+}
+
+#dark-mode-toggle:not(:checked) + label {
+  --bg-color: #fff;
+  --text-color: #222;
+  --accent-color: #06f;
+}
+
