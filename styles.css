@@ -224,7 +224,6 @@ button {
   }
 }
 
-/* Toggle dark mode */
 #theme-btn {
   position: absolute;
   top: 10px;
@@ -232,4 +231,13 @@ button {
   font-size: 2rem;
   cursor: pointer;
   z-index: 100;
+}
+
+#theme-btn.dark-mode::before {
+  content: "\f186";
+  color: #eee;
+}
+#theme-btn {
+  display: inline-block;
+  margin-right: 8px; /* Add some margin to the right */
 }
