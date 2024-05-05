@@ -226,34 +226,23 @@ button {
 
 #mode-switch {
   position: relative;
-  display: inline-block;
 }
 
-#theme-btn,
-#theme-btn2 {
-  display: inline-block;
-  margin-right: 8px; /* Add some margin to the right */
-}
-
-#theme-btn i,
-#theme-btn2 i {
-  font-size: 2rem;
-}
-
-input[type="checkbox"] {
+#mode-switch input[type="checkbox"] {
   display: none; /* Hide the checkbox */
 }
 
-#theme-btn i,
-#theme-btn2 i {
+#mode-switch i.fa-moon,
+#mode-switch i.fa-sun {
   font-size: 2rem;
+  margin-right: 8px; /* Add some margin to the right */
 }
 
-input[type="checkbox"]:checked + #theme-btn i.fa-moon {
+#mode-switch input[type="checkbox"]:checked + i.fa-moon {
   display: none;
 }
 
-input[type="checkbox"]:checked + #theme-btn i.fa-sun {
+#mode-switch input[type="checkbox"]:checked + i.fa-sun {
   display: inline-block;
 }
 
