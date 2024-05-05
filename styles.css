@@ -224,20 +224,49 @@ button {
   }
 }
 
-#theme-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 2rem;
-  cursor: pointer;
-  z-index: 100;
+#mode-switch {
+  position: relative;
+  display: inline-block;
 }
 
-#theme-btn.dark-mode::before {
-  content: "\f186";
-  color: #eee;
-}
-#theme-btn {
+#theme-btn,
+#theme-btn2 {
   display: inline-block;
   margin-right: 8px; /* Add some margin to the right */
+}
+
+#theme-btn i,
+#theme-btn2 i {
+  font-size: 2rem;
+}
+
+input[type="checkbox"] {
+  display: none; /* Hide the checkbox */
+}
+
+#theme-btn i,
+#theme-btn2 i {
+  font-size: 2rem;
+}
+
+input[type="checkbox"]:checked + #theme-btn i.fa-moon {
+  display: none;
+}
+
+input[type="checkbox"]:checked + #theme-btn i.fa-sun {
+  display: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111;
+    color: #fff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #eff;
+    color: #000;
+  }
 }
