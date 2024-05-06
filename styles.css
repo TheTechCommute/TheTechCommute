@@ -224,3 +224,68 @@ button {
   }
 }
 
+/* Light theme */
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+/* Switch functionality */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.theme-switch input[type="checkbox"] {
+  display: none;
+}
+
+.theme-switch i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.theme-switch i.fa-sun {
+  left: 5px;
+}
+
+.theme-switch i.fa-moon {
+  right: 5px;
+}
+
+.theme-switch input[type="checkbox"]:checked + i.fa-sun,
+.theme-switch input[type="checkbox"]:checked + i.fa-moon {
+  display: none;
+}
+
+.theme-switch input[type="checkbox"]:checked + i.fa-moon {
+  display: inline-block;
+}
+
+/* Toggle dark mode */
+.theme-switch input[type="checkbox"]:checked ~ body:not(.dark-mode) {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-switch input[type="checkbox"]:checked ~ body.dark-mode {
+  background-color: #fff;
+  color: #333;
+}
