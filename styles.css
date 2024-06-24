@@ -223,23 +223,22 @@ button {
     height: 232px; /* Slightly reduce height on small devices */
   }
 }
-
 /* Light theme */
-body {
+/* body {
   background-color: #fff;
   color: #333;
-}
+} */
 
 /* Dark theme */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     background-color: #333;
     color: #fff;
   }
-}
+} */
 
 /* Switch functionality */
-.theme-switch {
+/* .theme-switch {
   position: relative;
   display: inline-block;
   width: 60px;
@@ -280,7 +279,7 @@ body {
 }
 
 /* Toggle dark mode */
-.theme-switch input[type="checkbox"]:checked ~ body:not(.dark-mode) {
+/* .theme-switch input[type="checkbox"]:checked ~ body:not(.dark-mode) {
   background-color: #333;
   color: #fff;
 }
@@ -288,4 +287,4 @@ body {
 .theme-switch input[type="checkbox"]:checked ~ body.dark-mode {
   background-color: #fff;
   color: #333;
-}
+} */
