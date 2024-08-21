@@ -12,7 +12,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+#footer-text {
   font-family: Helvetica;
   font-weight: 900;
   text-align: center;
