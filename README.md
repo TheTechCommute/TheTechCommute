@@ -70,7 +70,8 @@ git commit -m "Description of changes"
 ```bash
 git push --set-upstream origin feature-name
 ```
-1. Submit a pull request to the main branch of the [https://github.com/TheTechCommute/techcommute](https://github.com/TheTechCommute/techcommute)
+1. Submit a pull request to the main branch of the 
+[TheTechCommute/TheTechCommute](https://github.com/TheTechCommute/TheTechCommute)
 
 ## Support
 
