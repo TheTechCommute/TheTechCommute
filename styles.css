@@ -228,18 +228,34 @@ button {
 
 .carousel {
   width: 80%;
+  height: 200px;
   margin: 0 auto;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 10px;
   background-color: #f0f0f0;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
+
 .quote {
-  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  opacity: 0;
+  transition: opacity 0.1s ease;
   font-size: 18px;
   font-style: italic;
 }
+
+.quote.active {
+  display: block;
+  opacity: 1;
+}
+
 .author {
   font-weight: bold;
   margin-top: 10px;
