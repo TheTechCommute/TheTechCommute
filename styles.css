@@ -223,3 +223,26 @@ button {
     height: 232px; /* Slightly reduce height on small devices */
   }
 }
+
+/* Carousel */
+
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.quote {
+  display: none;
+  font-size: 18px;
+  font-style: italic;
+}
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.active {
+  display: block;
+}
