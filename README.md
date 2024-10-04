@@ -72,6 +72,7 @@ git push --set-upstream origin feature-name
 ```
 1. Submit a pull request to the main branch of the 
 [TheTechCommute/TheTechCommute](https://github.com/TheTechCommute/TheTechCommute)
+
 ## Support
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
