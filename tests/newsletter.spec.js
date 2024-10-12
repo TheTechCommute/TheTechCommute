@@ -9,7 +9,7 @@ test('signup form expects valid email', async ({ page }) => {
   const subscribeButton = page.getByTestId("subscribeButton");
   const emailError = page.getByText("Please enter a valid email address.", { exact: true });
 
-  await emailField.fill('not an email');
+  await emailField.fill('bad-email');
   await subscribeButton.click();
 
   await expect(emailError).toBeVisible();

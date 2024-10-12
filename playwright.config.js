@@ -11,7 +11,7 @@ export default defineConfig({
     ['list']
   ],
   use: {
-    headless: false,
+    headless: true, // needed for CI
     trace: 'on-first-retry',
   },
   webServer: {
