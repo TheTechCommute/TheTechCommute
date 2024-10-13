@@ -13,5 +13,6 @@
 
 - [ ] Update Live Sessions section on the GitHub README and add links to streams/podcast so users can find you.
 - [ ] Embed current X livestream to website. 
-- [ ] Add modified X post from 9 September @jasonetorres and image to website. Add links to guests X profiles.
+- [ ] Add modified X post from 9 September @jasonetorres and image to website. 
+- [ ] Add links to guests X profiles.
 <!-- ADD YOUR IDEA ONE LINE ABOVE THIS LINE -->
