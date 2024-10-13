@@ -1,0 +1,9 @@
+organization: # org name on holopin
+defaultSticker: # sticker ID
+stickers:
+  -
+    id: # sticker id
+    alias: # shorthand-string
+  -
+   id:
+   alias: 
