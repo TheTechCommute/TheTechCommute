@@ -21,7 +21,7 @@ Join us LIVE on:
 
 - **Mondays at 3:50 PM EST**: "Tech Topic" featuring a theme and a special guest.
 - **Wednesdays at 3:50 PM EST**: "I'm a Dev, AMA" – YOUR chance to ask questions to experienced developers.
-- **Fridays at 11:30 AM**: We celebrate our wins for the week! Join us and let us know some great things you accomplished through the week!
+- **Fridays at 11:30 AM**: We celebrate our wins for the week! Join us and let us know some great things you accomplished throughout the week!
 
 ## How to Contribute
 
@@ -70,8 +70,7 @@ git commit -m "Description of changes"
 ```bash
 git push --set-upstream origin feature-name
 ```
-1. Submit a pull request to the main branch of the 
-[TheTechCommute/TheTechCommute](https://github.com/TheTechCommute/TheTechCommute)
+1. Submit a pull request to the main branch of the [https://github.com/TheTechCommute/techcommute](https://github.com/TheTechCommute/techcommute)
 
 ## Support
 
