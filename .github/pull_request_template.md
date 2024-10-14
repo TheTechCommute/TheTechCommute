@@ -1,11 +1,13 @@
-## Issue
-<!-- Use `Closes #issue number` if your PR closes an issue or `Relates to #issue number` if it connects to the issue number -->
+## What does your PR do?
 
-## Changes proposed 
-<!-- List all the proposed changes in your PR -->
+<!-- Add a clear and detailed description of what your PR does
 
-## Screenshots
-<!-- Add all the screenshots that support your PR -->
+Does your PR close an issue? If so, add --> Closes #Issue_Number
 
-## Note to reviewers
-<!-- Add notes to reviewers if applicable -->
+## Relevant media
+
+<!-- Add any relevant media like screenshots or videos if necessary to demonstrate the changes you have made in the website -->
+
+## Have you read our [Code of Conduct](https://github.com/TheTechCommute/TheTechCommute/blob/main/CODE_OF_CONDUCT.md)?
+
+- [ ] Yes
