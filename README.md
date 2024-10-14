@@ -1,4 +1,18 @@
-<img src="https://i.imgur.com/J3u1BY5.png">
+<img src="https://pbs.twimg.com/media/GZx4CTZXQAkN6wV?format=png&name=small">
+<br>
+
+## Tis the season for Hacktoberfest!
+
+Want to have your very own Holopin Tech Commute badge?
+
+You can contribute to the Tech Commute GitHub repository by submitting a PR and getting it approved. Check out our [Contributing Guide](https://github.com/TheTechCommute/TheTechCommute/blob/main/CONTRIBUTING.md) for a more detailed overlook of how you can contribute!
+
+## What if there are no issues available?
+
+You can create your own issue! Look through the Tech Commute website, and if you notice something that could be added, updated, or fixed, create a clear and descriptive issue and start working on it! But make sure there aren't already similar issues.
+
+
+<img src="images/website.png">
 <br>
 
 # Welcome to the Tech Commute Open Source project!
@@ -36,13 +50,13 @@ We're excited to have you on board! Here's how you can contribute:
 
 To stay updated and listen to our shows, follow the hosts for the latest show links. Your participation and support make Tech Commute a better community!
 
-[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
+[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob) **&** [Ellie Zubrowski](https://x.com/elliezub)
 
 ---
 
 We look forward to your contributions and ideas. Together, we can make Tech Commute the go-to place for tech enthusiasts!
 =======
-[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob)
+[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob) **&** [Ellie Zubrowski](https://x.com/elliezub)
 
 # HOW TO CONTRIBUTE
 
