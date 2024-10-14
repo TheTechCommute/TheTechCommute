@@ -1,10 +1,6 @@
-organization: # org name on holopin
-defaultSticker: # sticker ID
+organization: techcommute
+defaultSticker: cm1t37wyh244470cl6gbzix9kz
 stickers:
   -
-    id: # sticker id
-    alias: # shorthand-string
-  -
-   id:
-   alias: 
-   # test this out
+    id: cm1t37wyh244470cl6gbzix9kz
+    alias: tchacktoberfest
