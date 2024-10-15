@@ -1,5 +1,4 @@
-<img src="https://i.imgur.com/J3u1BY5.png">
-<br>
+![homepage](images/homepage_new.png "Home Page")
 
 # Welcome to the Tech Commute Open Source project!
 
