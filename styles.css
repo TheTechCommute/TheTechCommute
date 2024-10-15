@@ -89,13 +89,14 @@ button {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-2%);
   }
 }
 
 #mc_embed_signup {
-  background:rgb(251, 156, 22);
+  background: rgb(251, 156, 22);
   max-width: 400px;
   margin: 20px;
   transform: rotate(2deg);
@@ -162,7 +163,8 @@ button {
 }
 
 .spotify-embed {
-  max-width: 500px; /* Adjust based on your design preference */
+  max-width: 500px;
+  /* Adjust based on your design preference */
   margin: 20px auto;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -214,13 +216,22 @@ button {
 }
 
 .spotify-embed {
-  width: 100%; /* Full screen width */
-  height: 352px; /* Slightly reduce height on small devices */
+  width: 100%;
+  /* Full screen width */
+  height: 352px;
+  /* Slightly reduce height on small devices */
 }
 
 @media (max-width: 900px) {
   .spotify-embed {
-    width: 90%; /* medium screen or smaller screens width */
-    height: 232px; /* Slightly reduce height on small devices */
+    width: 90%;
+    /* medium screen or smaller screens width */
+    height: 232px;
+    /* Slightly reduce height on small devices */
   }
+}
+
+/* FOOTER */
+#footer-text {
+  margin-bottom: 1.5rem;
 }
