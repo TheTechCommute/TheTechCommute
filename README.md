@@ -50,13 +50,13 @@ We're excited to have you on board! Here's how you can contribute:
 
 To stay updated and listen to our shows, follow the hosts for the latest show links. Your participation and support make Tech Commute a better community!
 
-[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob) **&** [Ellie Zubrowski](https://x.com/elliezub)
+[Jason Torres](https://x.com/TasonJorres) **&** [Jacob Ashley](https://x.com/arcadejacob) **&** [Ellie Zubrowski](https://x.com/elliezub)
 
 ---
 
 We look forward to your contributions and ideas. Together, we can make Tech Commute the go-to place for tech enthusiasts!
 =======
-[Jason Torres](https://twitter.com/TasonJorres) **&** [Jacob Ashley](https://twitter.com/arcadejacob) **&** [Ellie Zubrowski](https://x.com/elliezub)
+[Jason Torres](https://x.com/TasonJorres) **&** [Jacob Ashley](https://x.com/arcadejacob) **&** [Ellie Zubrowski](https://x.com/elliezub)
 
 # HOW TO CONTRIBUTE
 
