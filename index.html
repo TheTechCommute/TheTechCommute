@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/TC_ICON.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css">
+    <link href="images/TC_ICON.png" rel="icon" type="image/x-icon" />
     <link href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3a8e833803.js" crossorigin="anonymous"></script>
     <title>Tech Commute</title>
 </head>
 <body>
     <nav>
-        <img class="tc_letters" src="images/TC_LETTERS.png" alt="Tech Commute Logo- Letters">
+        <img class="tc-letters" src="images/TC_LETTERS.png" alt="Tech Commute Logo - Letters">
     </nav>
     <main>
-        <section class="mainTop">
-            <section class="card">
-                <h2>Tech Commute is a Twitter/X Space hosted by Jason Torres, Jacob Ashley & Ellie.<br> Join us as we learn together, celebrate developer achievements, and talk to some of the most incredible people in tech on the planet.</h2>
-            </section>
-            <img class='tc_buddy' src="images/TC_BUDDYnoshadow.png" alt="Tech Commute logo- Little TC, the computer guy">
+        <section id="hero">
+            <h2>Tech Commute is a Twitter/X Space hosted by Jason Torres, Jacob Ashley & Ellie.<br> Join us as we learn together, celebrate developer achievements, and talk to some of the most incredible people in tech on the planet.</h2>
+            <img class="tc-buddy" src="images/TC_BUDDYnoshadow.png" alt="Tech Commute Logo - Little TC, the computer guy">
             <div id="mc_embed_shell">
                 <div id="mc_embed_signup">
                     <form action="https://gmail.us10.list-manage.com/subscribe/post?u=e9d20301d5f876587b37e041f&amp;id=e969125eec&amp;f_id=0086e8e5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                         <div id="mc_embed_signup_scroll">
-                            <h2>Let me know about upcoming Tech Commute news!</h2>
+                            <h3>Let me know about upcoming Tech Commute news!</h3>
                             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                             <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input data-testid="emailField" type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
                             <div id="mce-responses" class="clear foot">
@@ -34,12 +32,7 @@
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
                                 <input type="text" name="b_e9d20301d5f876587b37e041f_e969125eec" tabindex="-1" value="">
                             </div>
-                            <div class="optionalParent">
-                                <div class="clear foot">
-                                    <input data-testid="subscribeButton" type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                                    <p style="margin: 0px auto;"><a href="http://eepurl.com/iDN-uA" title="Mailchimp - email marketing made easy and fun"></a></p>
-                                </div>
-                            </div>
+                            <input data-testid="subscribeButton" type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
                         </div>
                     </form>
                 </div>
@@ -47,47 +40,47 @@
                 <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
             </div>
         </section>
-        <section class="hostTitle hosts">
-            <h2 class="hostCheck">Check out the hosts on X!</h2>
-            <section class="hosts">
-                <section>
-                    <h2>Jason</h2>
+        <section id="hosts">
+            <h2 class="green-header">Check out the hosts on X!</h2>
+            <div class="hosts">
+                <div>
+                    <h3>Jason</h3>
                     <a
                         href="http://www.x.com/tasonjorres"
                         target="_blank"
                         rel="noopener noreferrer">
                         <img class="profile" src="images/jason.jpg" alt="Profile photo of Jason Torres">
                     </a>
-                </section>
-                <section>
-                    <h2>Jacob</h2>
+                </div>
+                <div>
+                    <h3>Jacob</h3>
                     <a
                         href="http://www.x.com/arcadejacob"
                         target="_blank"
                         rel="noopener noreferrer">
-                    <img class="profile" src="images/jacob.jpg" alt="Profile photo of Jacob Ashley">
+                        <img class="profile" src="images/jacob.jpg" alt="Profile photo of Jacob Ashley">
                     </a>
-                </section>
-                <section>
-                    <h2>Ellie</h2>
+                </div>
+                <div>
+                    <h3>Ellie</h3>
                     <a
                         href="http://www.x.com/elliezub"
                         target="_blank"
                         rel="noopener noreferrer">
-                    <img class="profile" src="images/ellie.jpg" alt="Profile photo of Ellie">
+                        <img class="profile" src="images/ellie.jpg" alt="Profile photo of Ellie">
                     </a>
-                </section>
-            </section>
+                </div>
+            </div>
         </section>
-        <section class="podcast-intro">
-            <h2 class="podcast-title">Listen to Our Spotify Podcast!</h2>
-            <h2>Join us on Spotify and dive deep into discussions about tech, innovation, developer achievements and occasional jokes!</h2>
+        <section id="podcast">
+            <h2 class="green-header">Listen to Our Spotify Podcast!</h2>
+            <p class="lead">Join us on Spotify and dive deep into discussions about tech, innovation, developer achievements and occasional jokes!</p>
         </section>
-            <!-- Spotify Iframe -->
-    <iframe title="Tech Commute podcast Spotify card with guest's name and photo" class="spotify-embed" src="https://open.spotify.com/embed/show/4kW4BzuDBdTrX5TRxEufmC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!-- Spotify Iframe -->
+        <iframe title="Tech Commute podcast Spotify card with guest's name and photo" class="spotify-embed" src="https://open.spotify.com/embed/show/4kW4BzuDBdTrX5TRxEufmC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </main>
     <footer>
-        <p id="footer-text">&#169 2024 Tech Commute</p>
+        &copy; 2024 Tech Commute
     </footer>
 </body>
 </html>
