@@ -228,3 +228,56 @@ footer {
     margin-left: 100px;
   }
 }
+
+.spotify-embed {
+  width: 100%; /* Full screen width */
+  height: 352px; /* Slightly reduce height on small devices */
+}
+
+@media (max-width: 900px) {
+  .spotify-embed {
+    width: 90%; /* medium screen or smaller screens width */
+    height: 232px; /* Slightly reduce height on small devices */
+  }
+}
+
+/* Carousel */
+
+.carousel {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.quote.active {
+  display: block;
+  opacity: 1;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.active {
+  display: block;
+}
+
