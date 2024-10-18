@@ -1,57 +1,70 @@
+:root {
+  --var-orange: rgb(251, 156, 22);
+  --var-background: rgb(213, 191, 165);
+  --var-green: rgb(24, 126, 43);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  width: 100%;
   padding: 0;
   margin: 0;
-  background-color: rgb(213, 191, 165);
+  background-color: var(--var-background);
+  font-family: Helvetica, sans-serif;
 }
 
 h1,
 h2,
-h3,
-h4,
-#footer-text {
-  font-family: Helvetica;
+h3 {
   font-weight: 900;
   text-align: center;
   margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+footer,
+section {
+  padding: 20px;
+}
+
+.green-header {
+  background: var(--var-green);
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 0.2px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  transform: rotate(-2deg);
+  font-size: 1.5rem;
+  max-width: max-content;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-weight: 900;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+  text-align: center;
 }
 
 /* NAV */
-nav {
-  display: flex;
-  justify-content: center;
+nav .tc-letters {
+  width: 600px;
+  max-width: 100%;
+  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.7));
+  margin: auto;
+  display: block;
 }
 
-/* MAIN */
+/* BODY */
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.tc_letters {
-  margin-top: 10px;
-  width: 400px;
-  max-width: 100%;
-  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.7));
-}
-
-/* BODY */
-h2 {
-  font-size: 1.1rem;
-  margin: 0px 30px;
-  letter-spacing: 0.2px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.icon {
-  font-size: 50px;
 }
 
 .card {
@@ -63,15 +76,7 @@ h2 {
   margin: 10px;
 }
 
-button {
-  background-color: white;
-  border: none;
-  box-shadow: 3px 3px 4px;
-  border-radius: 10px;
-  width: 200px;
-}
-
-.tc_buddy {
+.tc-buddy {
   max-width: 100%;
   width: 400px;
   padding: 20px;
@@ -80,8 +85,8 @@ button {
 }
 
 @media not (prefers-reduced-motion) {
-  .tc_buddy {
-    animation: drive 0.5s ease 10 alternate;
+  .tc-buddy {
+    animation: drive 0.5s ease infinite alternate;
   }
 }
 
@@ -95,7 +100,7 @@ button {
 }
 
 #mc_embed_signup {
-  background:rgb(251, 156, 22);
+  background: var(--var-orange);
   max-width: 400px;
   margin: 20px;
   transform: rotate(2deg);
@@ -105,35 +110,22 @@ button {
   border-radius: 20px;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  /* filter: drop-shadow(3px 3px 4px black); */
   margin-bottom: 50px;
 }
 
 .hosts {
-  display: flex;
+  display: grid;
   flex-direction: row;
   margin: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
-.hostCheck {
-  background: rgb(24, 126, 43);
-  max-width: 500px;
-  width: 90%;
-  color: white;
-  transform: rotate(-2deg);
-  font-size: 1.5rem;
-  letter-spacing: 0.2px;
-  /* filter: drop-shadow(3px 3px 4px black) */
+.hosts > * h3 {
+  margin-bottom: .5rem;
 }
 
-.hostTitle {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profile {
+.hosts > * img {
   width: 100px;
   border-radius: 50%;
   margin: 0px 20px;
@@ -141,39 +133,58 @@ button {
   box-shadow: 3px 3px 4px black;
 }
 
-.podcast-intro {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 15px 0;
-}
-
-.podcast-title {
-  background: rgb(24, 126, 43);
-  color: white;
-  font-size: 1.5rem;
-  letter-spacing: 0.2px;
-  padding: 10px;
-  border-radius: 5px;
-  transform: rotate(-2deg);
-  margin: 20px 0;
-  /* Adjust font size and padding in media queries for responsiveness */
-}
-
 .spotify-embed {
-  max-width: 500px; /* Adjust based on your design preference */
+  max-width: 500px;
   margin: 20px auto;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 352px;
 }
 
-@media (min-width: 900px) {
-  .tc_letters {
-    width: 600px;
-  }
+footer {
+  font-weight: 900;
+  text-align: center;
+}
 
-  .tc_buddy {
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hosts h2 {
+  font-size: 2rem;
+}
+
+/* OVERRIDES */
+#mc_embed_signup .mc-field-group {
+  margin-bottom: .7rem;
+  padding: 0;
+}
+
+#mc_embed_signup div#mce-responses {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#mc_embed_signup div.response {
+  padding: 0;
+  margin: 0 0 .7rem 0;
+}
+
+#mc_embed_signup div#mce-success-response {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#mc_embed_signup .button {
+  margin-bottom: 0;
+}
+
+/* MEDIAQUERIES */
+@media (min-width: 900px) {
+  .tc-buddy {
     width: 500px;
   }
 
@@ -181,31 +192,36 @@ button {
     font-size: 1.6rem;
   }
 
-  #mc_embed_signup h2 {
-    font-size: 1.4rem;
+  #mc_embed_signup h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 900px) {
+  nav .tc-letters {
+    width: 400px;
+  }
+
+  .spotify-embed {
+    height: 232px;
   }
 }
 
 @media (min-width: 1400px) {
-  .mainTop {
-    display: flex;
+  nav {
+    margin-bottom: 50px;
+  }
+
+  #hero {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
   }
 
-  .card h2 {
+  #hero h2 {
     font-size: 1.7rem;
-    width: 400px;
-    padding: 20px;
-  }
-
-  .tc_buddy {
-    padding-top: 50px;
-  }
-
-  .hostCheck {
-    font-size: 2rem;
+    max-width: 400px;
   }
 
   #mc_embed_signup {
@@ -264,3 +280,4 @@ button {
 .active {
   display: block;
 }
+
