@@ -61,7 +61,7 @@ We look forward to your contributions and ideas. Together, we can make Tech Comm
 # HOW TO CONTRIBUTE
 
 - Tech Commute welcomes your contributions to make our community even better!  
-- As we get started we are looking for ideas for how to bes use this repo for the community.
+- As we get started we are looking for ideas for how to best use this repo for the community.
 
 1. Fork the repository and create a new branch for your idea. Example: `YourName-ideas`.
 
@@ -84,7 +84,7 @@ git commit -m "Description of changes"
 ```bash
 git push --set-upstream origin feature-name
 ```
-1. Submit a pull request to the main branch of the [https://github.com/TheTechCommute/techcommute](https://github.com/TheTechCommute/techcommute)
+1. Submit a pull request to the main branch of the [TheTechCommute](https://github.com/TheTechCommute/techcommute)
 
 ## Support
 
