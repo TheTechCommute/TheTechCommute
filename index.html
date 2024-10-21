@@ -8,38 +8,183 @@
     <link href="styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3a8e833803.js" crossorigin="anonymous"></script>
     <title>Tech Commute</title>
+    
+    <!-- Add light and dark mode styles -->
+    <style>
+        /* Default Light Mode */
+        :root {
+            --bg-color: #fff;
+            --text-color: #000;
+            --card-bg-color: #f9f9f9;
+            --nav-bg-color: #f1f1f1;
+            --footer-bg-color: #ddd;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: var(--nav-bg-color);
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: var(--footer-bg-color);
+            text-align: center;
+            padding: 10px;
+        }
+        .card, .hostTitle, .podcast-intro {
+            background-color: var(--card-bg-color);
+            padding: 20px;
+            margin: 10px;
+        }
+        .tc_letters, .tc_buddy, .profile {
+            max-width: 100%;
+        }
+
+        /* Dark Mode */
+        .dark-mode {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --card-bg-color: #1e1e1e;
+            --nav-bg-color: #1c1c1c;
+            --footer-bg-color: #2b2b2b;
+        }
+
+        /* Icon Toggle Styling */
+        .mode-toggle-icon {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-color);
+        }
+
+        .mode-toggle-icon:hover {
+            color: #ffcc00; /* Highlight effect when hovering on icon */
+        }
+    </style>
 </head>
 <body>
+    <!-- Mode Toggle Icon -->
+    <i class="fas fa-moon mode-toggle-icon" id="mode-toggle-icon"></i>
+
+    <!-- Navigation -->
     <nav>
+        <img class="tc_letters" src="images/TC_LETTERS.png" alt="Tech Commute Logo">
         <img class="tc-letters" src="images/TC_LETTERS.png" alt="Tech Commute Logo - Letters">
     </nav>
+
+    <!-- Main Content -->
     <main>
+
+        <!-- Intro Section -->
+        <section class="mainTop">
+            <section class="card">
+                <h2>Tech Commute is a Twitter/X Space hosted by Jason Torres, Jacob Ashley & Ellie.<br> 
+                Join us as we learn together, celebrate developer achievements, and talk to some of the most incredible people in tech on the planet.</h2>
+            </section>
+            <img class="tc_buddy" src="images/TC_BUDDYnoshadow.png" alt="Little TC, the computer guy mascot for Tech Commute">
+
+            <!-- Mailchimp Signup Form -->
+
         <section id="hero">
             <h2>Tech Commute is a Twitter/X Space hosted by Jason Torres, Jacob Ashley & Ellie.<br> Join us as we learn together, celebrate developer achievements, and talk to some of the most incredible people in tech on the planet.</h2>
             <img class="tc-buddy" src="images/TC_BUDDYnoshadow.png" alt="Tech Commute Logo - Little TC, the computer guy">
             <div id="mc_embed_shell">
                 <div id="mc_embed_signup">
-                    <form action="https://gmail.us10.list-manage.com/subscribe/post?u=e9d20301d5f876587b37e041f&amp;id=e969125eec&amp;f_id=0086e8e5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                    <form action="https://gmail.us10.list-manage.com/subscribe/post?u=e9d20301d5f876587b37e041f&amp;id=e969125eec&amp;f_id=0086e8e5f0" 
+                          method="post" 
+                          id="mc-embedded-subscribe-form" 
+                          name="mc-embedded-subscribe-form" 
+                          class="validate" 
+                          target="_blank">
                         <div id="mc_embed_signup_scroll">
                             <h3>Let me know about upcoming Tech Commute news!</h3>
                             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display:none;"></div>
+                                <div class="response" id="mce-success-response" style="display:none;"></div>
                             <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input data-testid="emailField" type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
                             <div id="mce-responses" class="clear foot">
                                 <div data-testid="emailError" class="response" id="mce-error-response" style="display: none;"></div>
                                 <div class="response" id="mce-success-response" style="display: none;"></div>
+
                             </div>
                             <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
                                 <input type="text" name="b_e9d20301d5f876587b37e041f_e969125eec" tabindex="-1" value="">
                             </div>
+
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                                    <p style="margin:0;"><a href="http://eepurl.com/iDN-uA" title="Mailchimp - email marketing made easy and fun"></a></p>
+                                </div>
+                            </div>
+
                             <input data-testid="subscribeButton" type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+
                         </div>
                     </form>
                 </div>
-                <script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-                <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <script src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                <script>
+                    (function($) {
+                        window.fnames = new Array(); 
+                        window.ftypes = new Array();
+                        fnames[0] = 'EMAIL'; 
+                        ftypes[0] = 'email';
+                    }(jQuery)); 
+                    var $mcj = jQuery.noConflict(true);
+                </script>
             </div>
         </section>
+
+
+        <!-- Hosts Section -->
+        <section class="hostTitle hosts">
+            <h2 class="hostCheck">Check out the hosts on X!</h2>
+            <section class="hosts">
+                <section>
+                    <h2>Jason</h2>
+                    <a href="http://www.x.com/tasonjorres"><img class="profile" src="images/jason.jpg" alt="Jason Torres Profile"></a>
+                </section>
+                <section>
+                    <h2>Jacob</h2>
+                    <a href="http://www.x.com/arcadejacob"><img class="profile" src="images/jacob.jpg" alt="Jacob Ashley Profile"></a>
+                </section>
+                <section>
+                    <h2>Ellie</h2>
+                    <a href="http://www.x.com/elliezub"><img class="profile" src="images/ellie.jpg" alt="Ellie Profile"></a>
+                </section>
+            </section>
+        </section>
+
+        <!-- Podcast Section -->
+        <section class="podcast-intro">
+            <h2 class="podcast-title">Listen to Our Spotify Podcast!</h2>
+            <h2>Join us on Spotify and dive deep into discussions about tech, innovation, developer achievements, and occasional jokes!</h2>
+        </section>
+
+        <!-- Spotify Iframe -->
+        <iframe class="spotify-embed" 
+                src="https://open.spotify.com/embed/show/4kW4BzuDBdTrX5TRxEufmC?utm_source=generator" 
+                width="100%" 
+                height="352" 
+                frameborder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+
         <section id="hosts">
             <h2 class="green-header">Check out the hosts on X!</h2>
             <div class="hosts">
@@ -106,11 +251,52 @@
     </div>
 
 
+
     </main>
+
+    <!-- Footer -->
     <footer>
+
+        <h4>&#169; <span id="current-year"></span> Tech Commute</h4>
+    </footer>
+
+    <!-- Script for Dynamic Footer Year and Dark/Light Mode Toggle -->
+    <script>
+        // Set dynamic year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Toggle dark/light mode
+        const toggleIcon = document.getElementById('mode-toggle-icon');
+        const bodyElement = document.body;
+
+        // Function to update the icon based on mode
+        function updateIcon(mode) {
+            toggleIcon.className = mode === 'dark-mode' ? 'fas fa-sun mode-toggle-icon' : 'fas fa-moon mode-toggle-icon';
+        }
+
+        // Check for saved mode in localStorage
+        const savedMode = localStorage.getItem('mode');
+        if (savedMode) {
+            bodyElement.classList.add(savedMode);
+            updateIcon(savedMode);
+        }
+
+        toggleIcon.addEventListener('click', () => {
+            const isDarkMode = bodyElement.classList.contains('dark-mode');
+            const newMode = isDarkMode ? 'light-mode' : 'dark-mode';
+            
+            bodyElement.classList.toggle('dark-mode');
+            updateIcon(newMode);
+            
+            // Save the user's preference in localStorage
+            localStorage.setItem('mode', newMode);
+        });
+    </script>
+
         &copy; 2024 Tech Commute
     </footer>
 
     <script src="carousel.js"></script>
+
 </body>
 </html>
