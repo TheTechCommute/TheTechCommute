@@ -1,0 +1,17 @@
+{
+  "name": "thetechcommute",
+  "version": "1.0.0",
+  "description": "<img src=\"https://i.imgur.com/J3u1BY5.png\"> <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5",
+    "http-server": "^14.1.1"
+  }
+}
