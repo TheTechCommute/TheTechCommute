@@ -159,19 +159,22 @@ footer {
 
 /* OVERRIDES */
 #mc_embed_signup .mc-field-group {
-  margin-bottom: .7rem;
   padding: 0;
 }
 
 #mc_embed_signup div#mce-responses {
-  margin: 0;
+  margin: .7rem 0 .7rem 0;
   padding: 0;
   display: block;
 }
 
 #mc_embed_signup div.response {
+  margin: 0;
   padding: 0;
-  margin: 0 0 .7rem 0;
+}
+
+#mc_embed_signup p#mce-success-response-container{
+  margin: 0;
 }
 
 #mc_embed_signup div#mce-success-response {
