@@ -26,7 +26,7 @@ h3 {
 
 footer,
 section {
-  padding: 25px;
+  padding: 20px;
 }
 
 .green-header {
@@ -43,11 +43,20 @@ section {
   margin-bottom: 1.5rem;
 }
 
+#podcast > .green-header {
+  background: var(--var-orange);
+  transform: rotate(2deg);
+}
+
 .lead {
   font-weight: 900;
   font-size: 1.1rem;
   letter-spacing: 0.2px;
   text-align: center;
+  text-wrap: wrap;
+  width: 600px;
+  justify-content: center;
+  margin-bottom: -20px;
 }
 
 /* NAV */
@@ -116,7 +125,7 @@ main {
 .hosts {
   display: grid;
   flex-direction: row;
-  margin: 15px;
+  margin-bottom: 30px;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
@@ -199,6 +208,11 @@ footer {
 
 @media (max-width: 900px) {
   nav .tc-letters {
+    width: 400px;
+  }
+
+  .lead {
+    text-wrap: wrap; 
     width: 400px;
   }
 
