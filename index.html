@@ -108,19 +108,11 @@
 
                             <div class="mc-field-group">
                                 <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                                <input data-testid="emailField" type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
                             </div>
                             <div id="mce-responses" class="clear foot">
-                                <div class="response" id="mce-error-response" style="display:none;"></div>
+                                <div data-testid="emailError" class="response" id="mce-error-response" style="display:none;"></div>
                                 <div class="response" id="mce-success-response" style="display:none;"></div>
-                            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input data-testid="emailField" type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
-                            <div id="mce-responses" class="clear foot">
-                                <div data-testid="emailError" class="response" id="mce-error-response" style="display: none;"></div>
-                                <p id="mce-success-response-container">
-                                    <div class="response" id="mce-success-response" style="display: none;"></div>
-                                </p>
-                                <div class="response" id="mce-success-response" style="display: none;"></div>
-
                             </div>
                             <div aria-hidden="true" style="position: absolute; left: -5000px;">
                                 <input type="text" name="b_e9d20301d5f876587b37e041f_e969125eec" tabindex="-1" value="">
@@ -128,12 +120,11 @@
 
                             <div class="optionalParent">
                                 <div class="clear foot">
-                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                                    <input data-testid="subscribeButton" type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
                                     <p style="margin:0;"><a href="http://eepurl.com/iDN-uA" title="Mailchimp - email marketing made easy and fun"></a></p>
                                 </div>
                             </div>
 
-                            <input data-testid="subscribeButton" type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
 
                         </div>
                     </form>
